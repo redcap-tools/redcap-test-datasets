@@ -1,12 +1,12 @@
-# History files
-.Rhistory
-.Rapp.history
 
-# Example code in package build process
-*-Ex.R
+*/README.html
+README.html
 
 # RStudio files
+.Rhistory
+.Rapp.history
 .Rproj.user/
+.Rproj.user
 
 # produced vignettes
 vignettes/*.html
