@@ -1,0 +1,5 @@
+project_name,token,server_url,pid,server,read_only,operational,notes
+offerman,9A81268476645C4E5F03428B8AC3AA7B,"https://bbmc.ouhsc.edu/redcap/api/",153,oklahoma-bbmc,TRUE,TRUE,"simple structure; read-only"
+offerman,D70F9ACD1EDD6F151C6EA78683944E98,"https://bbmc.ouhsc.edu/redcap/api/",213,oklahoma-bbmc,FALSE,TRUE,"simple structure; read & write"
+offerman,0434F0E9CF53ED0587847AB6E51DE762,"https://bbmc.ouhsc.edu/redcap/api/",212,oklahoma-bbmc,TRUE,TRUE,"longitudinal structure; read-only"
+offerman,D72C6485B52FE9F75D27B696977FBA43,"https://bbmc.ouhsc.edu/redcap/api/",268,oklahoma-bbmc,TRUE,TRUE,"Russian characters; read-only"
