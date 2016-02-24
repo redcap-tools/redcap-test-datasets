@@ -1,0 +1,31 @@
+"field_name","form_name","section_header","field_type","field_label","select_choices_or_calculations","field_note","text_validation_type_or_show_slider_number","text_validation_min","text_validation_max","identifier","branching_logic","required_field","custom_alignment","question_number","matrix_group_name","matrix_ranking","field_annotation"
+"record_id","my_first_instrument",NA,"text","Record ID",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"unvalidated_text","my_first_instrument",NA,"text","Unvalidated Text",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"date_dmy","my_first_instrument",NA,"text","Date (DMY) [no min, no max]",NA,NA,"date_dmy",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"date_mdy","my_first_instrument",NA,"text","Date (MDY) [min, no max]",NA,"Min: 01-01-2010","date_mdy","2010-01-01",NA,NA,NA,NA,NA,NA,NA,NA,NA
+"date_ymd","my_first_instrument",NA,"text","Date (YMD) [no min, max]",NA,"Max: 2019-12-31","date_ymd",NA,"2019-12-31",NA,NA,NA,NA,NA,NA,NA,NA
+"datetime_dmyhm","my_first_instrument",NA,"text","Datetime (dmy hm) [min, max]",NA,"Min 01-01-2010 00:00; Max 31-12-2019 23:59","datetime_dmy","2010-01-01 00:00","2019-12-31 23:59",NA,NA,NA,NA,NA,NA,NA,NA
+"datetime_mdyhm","my_first_instrument",NA,"text","Datetime (mdy hm)",NA,NA,"datetime_mdy",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"datetime_ymdhm","my_first_instrument",NA,"text","Datetime (ymdhm)",NA,NA,"datetime_ymd",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"datetime_dmyhms","my_first_instrument",NA,"text","Datetime (dmy hms)",NA,NA,"datetime_seconds_dmy",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"datetime_mdyhms","my_first_instrument",NA,"text","Datetime (mdy hms)",NA,NA,"datetime_seconds_mdy",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"datetime_ymdhms","my_first_instrument",NA,"text","Datetime (ymd hms)",NA,NA,"datetime_seconds_ymd",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"email","my_first_instrument","Non Date Fields","text","Email",NA,NA,"email",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"integer","my_first_instrument",NA,"text","Integer [min, no max]",NA,"Min: 0","integer","0",NA,NA,NA,NA,NA,NA,NA,NA,NA
+"number","my_first_instrument",NA,"text","Number [no min, max]",NA,"max: 100","number",NA,"100",NA,NA,NA,NA,NA,NA,NA,NA
+"phone","my_first_instrument",NA,"text","Phone (North America)",NA,NA,"phone",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"time","my_first_instrument",NA,"text","Time (HH:MM)",NA,NA,"time",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"zip","my_first_instrument",NA,"text","ZIP Code",NA,NA,"zipcode",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"notes","my_first_instrument",NA,"notes","Notes Box",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"calculated","my_first_instrument",NA,"calc","Calculated Field (integer + number)","[integer] + [number]",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"dropdown_numeric","my_first_instrument",NA,"dropdown","Drop Down (numeric code)","1, Choice One | 2, Choice Two | 3, Choice Three",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"dropdown_character","my_first_instrument",NA,"dropdown","Drop Down (character code)","a, Choice A | b, Choice B | c, Choice C",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"dropdown_mixed","my_first_instrument",NA,"dropdown","Drop Down (mixed)","a_1, Choice A1 | b_2, Choice B2 | c_3, Choice C3",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"radio_buttons","my_first_instrument",NA,"radio","Radio Buttons","1, Choice 1 | 2, Choice 2 | 3, Choice 3",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"checkbox","my_first_instrument",NA,"checkbox","Checkboxes","1, Selection 1 | 2, Selection 2 | 3, Selection 3",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"yes_no","my_first_instrument",NA,"yesno","Yes/No",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"true_false","my_first_instrument",NA,"truefalse","True/False",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"signature_draw","my_first_instrument",NA,"file","Signature Draw",NA,NA,"signature",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"file_upload","my_first_instrument",NA,"file","File Upload",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"slider","my_first_instrument",NA,"slider","Slider","left | middle | right",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"descriptive_text","my_first_instrument",NA,"descriptive","Descriptive Text",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
