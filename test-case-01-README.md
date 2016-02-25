@@ -30,12 +30,17 @@ API import functionality.
 
 #### Additional Files
 
-* `test-case-01-record-1-file_upload-redcaplogo.jpg`: The REDCap logo.  It was originally
+* `test-case-01-record-1-file_upload-random-image.jpg`: The REDCap logo.  It was originally
   placed in the `file_upload` field in record 1 to allow testing of the API functions 
   with file upload fields.
+
+![random-image](test-case-01-record-1-file_upload-random-image.jpg)
+
 * `test-case-01-record-1-signature_draw-2016-02-25-0116.png`: A sample signature from 
   a signature draw field in record 1.  It was placed in the project to allow testing of
   the API functions using signature draw fields.
+
+![signature-draw](test-case-01-record-1-signature_draw-2016-02-25-0116.png)
 
 
 ### Data Generation
