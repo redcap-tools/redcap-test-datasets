@@ -16,6 +16,30 @@ the API methods written by the REDCap-Tools project are capable of accessing and
 properly formatting each of the field types. It will also prove useful for testing the 
 API import functionality.
 
+### Files
+
+#### Standard Files
+
+* `test-case-01-data-dictionary.csv`
+* `test-case-01-meta-data-api.csv`
+* `test-case-01-project-information.csv`
+* `test-case-01-README.md`
+* `test-case-01-records.csv`
+* `test-case-01-records-api.csv`
+* `test-case-01-records-api-eav.csv`
+
+#### Additional Files
+
+* `test-case-01-record-1-file_upload-redcaplogo.jpg`: The REDCap logo.  It was originally
+  placed in the `file_upload` field in record 1 to allow testing of the API functions 
+  with file upload fields.
+* `test-case-01-record-1-signature_draw-2016-02-25-0116.png`: A sample signature from 
+  a signature draw field in record 1.  It was placed in the project to allow testing of
+  the API functions using signature draw fields.
+
+
+### Data Generation
+
 Data for this data base are randomly generated in R using the code below.
 
 ```
