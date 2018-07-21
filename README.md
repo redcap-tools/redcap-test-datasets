@@ -2,27 +2,28 @@
 
 Example datasets covering a range of scenarios to facilitate API tests.  (I'm still seeding, and need to add the other testing datasets used in [REDCapR](https://github.com/OuhscBbmc/REDCapR).) 
 
-| Test Case | Design           | Centers | Forms/Survey | Arms    | Events | Special Traits |
-|-----------|------------------|---------|--------------|---------|--------|----------------|
-| 01        | Cross-Sectional  | Single  | Form         | N/A     | N/A    |                |
-| 02        | Cross-Sectional  | Multi   | Form         | N/A     | N/A    |                |
-| 03        | Cross-Sectional  | Single  | Survey       | N/A     | N/A    |                |
-| 04        | Cross-Sectional  | Multi   | Survey       | N/A     | N/A    |                |
-| 05        | Cross-Sectional  | Single  | Hybrid       | N/A     | N/A    |                |
-| 06        | Cross-Sectional  | Multi   | Hybrid       | N/A     | N/A    |                |
-| 07        | Longitudinal     | Single  | Form         | Single  |        |                |
-| 08        | Longitudinal     | Multi   | Form         | Single  |        |                |
-| 09        | Longitudinal     | Single  | Survey       | Single  |        |                |
-| 10        | Longitudinal     | Multi   | Survey       | Single  |        |                |
-| 11        | Longitudinal     | Single  | Hybrid       | Single  |        |                |
-| 12        | Longitudinal     | Multi   | Hybrid       | Single  |        |                |
-| 13        | Longitudinal     | Single  | Form         | Multi   |        |                |
-| 14        | Longitudinal     | Multi   | Form         | Multi   |        |                |
-| 15        | Longitudinal     | Single  | Survey       | Multi   |        |                |
-| 16        | Longitudinal     | Multi   | Survey       | Multi   |        |                |
-| 17        | Longitudinal     | Single  | Hybrid       | Multi   |        |                |
-| 18        | Longitudinal     | Multi   | Hybrid       | Multi   |        |                |
-| 19        | Cross-Sectional  | Single  | Form         | N/A     |        | PHI Fields     |
+| Test Case | Design           | Centers | Forms/Survey | Arms    | Events | Special Traits       |
+|-----------|------------------|---------|--------------|---------|--------|----------------------|
+| 01        | Cross-Sectional  | Single  | Form         | N/A     | N/A    |                      |
+| 02        | Cross-Sectional  | Multi   | Form         | N/A     | N/A    |                      |
+| 03        | Cross-Sectional  | Single  | Survey       | N/A     | N/A    |                      |
+| 04        | Cross-Sectional  | Multi   | Survey       | N/A     | N/A    |                      |
+| 05        | Cross-Sectional  | Single  | Hybrid       | N/A     | N/A    |                      |
+| 06        | Cross-Sectional  | Multi   | Hybrid       | N/A     | N/A    |                      |
+| 07        | Longitudinal     | Single  | Form         | Single  |        |                      |
+| 08        | Longitudinal     | Multi   | Form         | Single  |        |                      |
+| 09        | Longitudinal     | Single  | Survey       | Single  |        |                      |
+| 10        | Longitudinal     | Multi   | Survey       | Single  |        |                      |
+| 11        | Longitudinal     | Single  | Hybrid       | Single  |        |                      |
+| 12        | Longitudinal     | Multi   | Hybrid       | Single  |        |                      |
+| 13        | Longitudinal     | Single  | Form         | Multi   |        |                      |
+| 14        | Longitudinal     | Multi   | Form         | Multi   |        |                      |
+| 15        | Longitudinal     | Single  | Survey       | Multi   |        |                      |
+| 16        | Longitudinal     | Multi   | Survey       | Multi   |        |                      |
+| 17        | Longitudinal     | Single  | Hybrid       | Multi   |        |                      |
+| 18        | Longitudinal     | Multi   | Hybrid       | Multi   |        |                      |
+| 19        | Cross-Sectional  | Single  | Form         | N/A     |        | PHI Fields           |
+| 20        | Cross-Sectional  | Single  | Form         | N/A     | N/A    | Randomization Module |
 
 
 ## Test Case Files
