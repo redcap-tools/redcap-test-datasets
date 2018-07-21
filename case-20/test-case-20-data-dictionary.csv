@@ -1,0 +1,7 @@
+"Variable / Field Name","Form Name","Section Header","Field Type","Field Label","Choices, Calculations, OR Slider Labels","Field Note","Text Validation Type OR Show Slider Number","Text Validation Min","Text Validation Max",Identifier?,"Branching Logic (Show field only if...)","Required Field?","Custom Alignment","Question Number (surveys only)","Matrix Group Name","Matrix Ranking?","Field Annotation"
+record_id,my_first_instrument,,text,"Record ID",,,,,,,,,,,,,
+sex,my_first_instrument,,dropdown,Sex,"0, Female | 1, Male",,,,,,,,,,,,
+location,my_first_instrument,,dropdown,Location,"1, Maine | 2, New Hampshire | 3, Vermont | 4, Massachusetts | 5, Rhode Island | 6, Connecticut",,,,,,,,,,,,
+treatment,my_first_instrument,,dropdown,Treatment,"0, Control | 1, Treatment",,,,,,,,,,,,
+pre_test,my_first_instrument,,text,"Pre test response",,,,,,,,,,,,,
+post_test,my_first_instrument,,text,"Post test response",,,,,,,,,,,,,
