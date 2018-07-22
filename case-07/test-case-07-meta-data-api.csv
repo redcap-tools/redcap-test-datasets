@@ -1,0 +1,6 @@
+"Variable / Field Name","Form Name","Section Header","Field Type","Field Label","Choices, Calculations, OR Slider Labels","Field Note","Text Validation Type OR Show Slider Number","Text Validation Min","Text Validation Max",Identifier?,"Branching Logic (Show field only if...)","Required Field?","Custom Alignment","Question Number (surveys only)","Matrix Group Name","Matrix Ranking?","Field Annotation"
+tree_id,tree_environment,,text,"Tree ID",,,,,,y,,,,,,,
+chamber,tree_environment,,radio,"Controlled Environment Chamber","1, Chamber 1 | 2, Chamber 2 | 3, Chamber 3 | 4, Chamber 4",,,,,,,,,,,,
+ozone,tree_environment,,yesno,"Ozone enriched environment",,,,,,,,,,,,,
+measurement,tree_measurement,,text,"Date of measurement",,,date_ymd,1988-01-01,1989-12-31,,,,,,,,
+log_size,tree_measurement,,text,"Log size",,,number,0,,,,,,,,,
