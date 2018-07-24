@@ -48,11 +48,13 @@ Tree <-
   mutate(measurement = row_number()) %>% 
   arrange(tree, date) %>% 
   mutate(redcap_event_name = sprintf("measurement_%s_arm_1", measurement))  %>% 
-  mutate(ozone = ifelse(grepl("measurement_1", redcap_event_name),
+  mutate(ozone = ifelse(grepl("measurement_1_arm_1", redcap_event_name),
                         yes = ozone, 
                         no = NA),
-         chamber = ifelse(grepl("measurement_1", redcap_event_name),
+         chamber = ifelse(grepl("measurement_1_arm_1", redcap_event_name),
                           yes = chamber, 
                           no = NA)) %>% 
-  select(tree, redcap_event_name, chamber, ozone, date, logsize)
+  select(tree_id = tree, redcap_event_name, 
+         chamber, ozone, date, 
+         log_size = logsize)
 ```  
