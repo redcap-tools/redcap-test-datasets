@@ -1,0 +1,7 @@
+"field_name","form_name","section_header","field_type","field_label","select_choices_or_calculations","field_note","text_validation_type_or_show_slider_number","text_validation_min","text_validation_max","identifier","branching_logic","required_field","custom_alignment","question_number","matrix_group_name","matrix_ranking","field_annotation"
+"record_id","my_first_instrument",,"text","Record ID",,,,,,,,,,,,,
+"sex","my_first_instrument",,"dropdown","Sex","0, Female | 1, Male",,,,,,,,,,,,
+"location","my_first_instrument",,"dropdown","Location","1, Maine | 2, New Hampshire | 3, Vermont | 4, Massachusetts | 5, Rhode Island | 6, Connecticut",,,,,,,,,,,,
+"treatment","my_first_instrument",,"dropdown","Treatment","0, Control | 1, Treatment",,,,,,,,,,,,
+"pre_test","my_first_instrument",,"text","Pre test response",,,,,,,,,,,,,
+"post_test","my_first_instrument",,"text","Post test response",,,,,,,,,,,,,

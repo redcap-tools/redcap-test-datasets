@@ -22,7 +22,8 @@ Example datasets covering a range of scenarios to facilitate API tests.  (I'm st
 | 16        | Longitudinal     | Multi   | Survey       | Multi   |        |                |
 | 17        | Longitudinal     | Single  | Hybrid       | Multi   |        |                |
 | 18        | Longitudinal     | Multi   | Hybrid       | Multi   |        |                |
-| 19        | Cross-Sectional  | Single  | Form         | N/A     |        | PHI Fields     |
+| 19        | Cross-Sectional  | Single  | Form         | N/A     | N/A    | PHI Fields     |
+| 20        | Cross-Sectional  | Single  | Form         | N/A     | N/A    | Randomization  |
 
 
 ## Test Case Files
